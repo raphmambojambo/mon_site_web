@@ -23,9 +23,10 @@
 			Ceci est un cours sur git
 		</p>
 		<script type="text/javascript">
-			const rndcol = () => "#" + Math.floor(Math.random() * 256)
+			cosnt rnd8 = () => Math.floor(Math.random()*256)
+			const rndcol = () => `"rgba(${rnd8()}, ${rnd8()}, ${rnd8()}, 1.)"`
 			while(true) {
-				body.style.backgroundColor = 
+				document.getElementById("top-banner").style.backgroundColor = rndcol()
 			}
 		</script>
 	</body>
