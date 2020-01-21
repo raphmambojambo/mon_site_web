@@ -78,4 +78,7 @@
   margin-top: 40px;
 }
 
-
+.gist-div {
+  margin: auto;
+  width: 50%;
+}
