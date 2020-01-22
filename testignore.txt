@@ -1,4 +1,0 @@
-test ignore 2
-serai-je ignoré ?
-ou ne le serai-je pas ?
-
